@@ -26,7 +26,7 @@ function WeatherCard({ day }) {
 
   return (
     <div className="card">
-      <img src={`/images/${getWeatherIcon(day.weather[0].main)}.png`} alt="Weather Icon" />
+      <img src={`/react_weather_app/src/assets/images/${getWeatherIcon(day.weather[0].main)}.png`} alt="Weather Icon" />
       <h1>{dayName}</h1>
       <p>{celsius}°C / {fahrenheit}°F</p>
       <p>{day.weather[0].description}</p>

@@ -26,7 +26,7 @@ function SearchBar({ onSearch }) {
         spellCheck="false"
       />
       <button onClick={handleSearch}>
-        <img src="/images/search.png" alt="Search" />
+        <img src="../images/search.png" alt="Search" />
       </button>
     </div>
   );

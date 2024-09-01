@@ -17,7 +17,7 @@
 body {
   background:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url('images/weather_wallpaper.jpg') no-repeat center center fixed;
+    url('./assets/images/weather_wallpaper.jpg') no-repeat center center fixed;
   background-size: cover; /* Ensures the image covers the entire page */
   color: #fff; /* Keeps the text color white */
 
